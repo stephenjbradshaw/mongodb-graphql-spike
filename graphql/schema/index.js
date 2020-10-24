@@ -6,14 +6,14 @@ module.exports = buildSchema(`
     _id: ID!
     username: String!
     numberOfPets: Int!
-    likesMarmite: Bool!
+    likesMarmite: Boolean!
     createdAt: String!
   }
 
   input UserInput {
     username: String!
     numberOfPets: Int!
-    likesMarmite: Bool!
+    likesMarmite: Boolean!
   }
 
   type Query {
